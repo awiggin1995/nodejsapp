@@ -18,7 +18,7 @@ job('Aplicacion Node.js Docker DSL') {
             tag('${GIT_REVISION,length=7}')
             registryCredentials('awiggin-docker')
 	    //authToken('717d2f44-33cc-429f-82f8-24154bc2322b')
-            forcePull(false)
+            //forcePull(false)
             createFingerprints(false)
             skipDecorate()
         }
